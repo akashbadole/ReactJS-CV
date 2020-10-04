@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -12,32 +13,32 @@ const Footer = () => {
                         <div className="col-6 col-md">
                             <h5>Features</h5>
                             <ul className="list-unstyled text-small">
-                                <li><a className="text-muted" href="#">Cool stuff</a></li>
-                                <li><a className="text-muted" href="#">Random feature</a></li>
-                                <li><a className="text-muted" href="#">Team feature</a></li>
-                                <li><a className="text-muted" href="#">Stuff for developers</a></li>
-                                <li><a className="text-muted" href="#">Another one</a></li>
-                                <li><a className="text-muted" href="#">Last time</a></li>
+                                <li><Link className="text-muted" to="#" >Cool stuff</Link></li>
+                                <li><Link className="text-muted" to="#" >Random feature</Link></li>
+                                <li><Link className="text-muted" to="#" >Team feature</Link></li>
+                                <li><Link className="text-muted" to="#" >Stuff for developers</Link></li>
+                                <li><Link className="text-muted" to="#" >Another one</Link></li>
+                                <li><Link className="text-muted" to="#" >Last time</Link></li>
                             </ul>
                         </div>
                         <div className="col-6 col-md">
                             <h5>Resources</h5>
                             <ul className="list-unstyled text-small">
-                                <li><a className="text-muted" href="#">Resource</a></li>
-                                <li><a className="text-muted" href="#">Resource name</a></li>
-                                <li><a className="text-muted" href="#">Another resource</a></li>
-                                <li><a className="text-muted" href="#">Final resource</a></li>
+                                <li><Link className="text-muted" to="#" >Resource</Link></li>
+                                <li><Link className="text-muted" to="#" >Resource name</Link></li>
+                                <li><Link className="text-muted" to="#" >Another resource</Link></li>
+                                <li><Link className="text-muted" to="#" >Final resource</Link></li>
                             </ul>
                         </div>
                         <div className="col-6 col-md">
                             <h5>About</h5>
                             <ul className="list-unstyled text-small">
-                                <li><a className="text-muted" href="#">Team</a></li>
-                                <li><a className="text-muted" href="#">Locations</a></li>
-                                <li><a className="text-muted" href="#">Privacy</a></li>
-                                <li><a className="text-muted" href="#">Terms</a></li>
+                                <li><Link className="text-muted" to="#" >Team</Link></li>
+                                <li><Link className="text-muted" to="#" >Locations</Link></li>
+                                <li><Link className="text-muted" to="#" >Privacy</Link></li>
+                                <li><Link className="text-muted" to="#" >Terms</Link></li>
                             </ul>
-                        </div>
+                        </div> 
                     </div>
             </footer>
       
