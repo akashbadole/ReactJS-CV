@@ -3,7 +3,7 @@ import React from 'react';
 const Content = () => {
     return (
         <div>
-            <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div className="pricing-header p-4 mx-2 my-2 mt-md-5 mb-md-4 mx-auto text-center bg-primary text-white">
             <h1 className="display-4">CV - A Web Developer</h1>
             <p className="lead"><b>Designer, Front-end Developer & Mentor</b> <br />
             I design and code beautifully simple things, and I love what I do.</p>
