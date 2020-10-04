@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Content from './Content';
 import Footer from './Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,22 +11,23 @@ import Enterprise from './Enterprise';
 import Support from './Support';
 import Pricing from './Pricing';
 import Notfound from './Notfound';
+import home from './home';
 
 
 
 function App() {
   return (
-    <div>
+    <div key="id">
        <Header />
       <Switch>
-        <Route path="/" component={App} exact />
+        <Route path="/" component={home} exact />
         <Route path="/Features" component={Features} />
         <Route path="/Enterprise" component={Enterprise} />
         <Route path="/Pricing" component={Pricing} />
         <Route path="/Support" component={Support} />
         <Route component={Notfound} />
       </Switch>
-     <Content />
+     
      <Footer />
     </div>
   );
