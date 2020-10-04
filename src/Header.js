@@ -11,7 +11,7 @@ const Header = () =>{
                 < Link className="p-2 text-dark" to="/Support">Support</Link>
                 < Link className="p-2 text-dark" to="/Pricing">Pricing</Link>
                 </nav>
-                < Link className="btn btn-outline-primary" to="/">Sign up</Link>
+                < Link className="btn btn-outline-primary" to="/Signup">Sign up</Link>
       </div>
     );
 }

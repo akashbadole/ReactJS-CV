@@ -12,6 +12,7 @@ import Support from './Support';
 import Pricing from './Pricing';
 import Notfound from './Notfound';
 import home from './home';
+import Signup from './Signup';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Enterprise" component={Enterprise} />
         <Route path="/Pricing" component={Pricing} />
         <Route path="/Support" component={Support} />
+        <Route path="/Signup" component={Signup} />
         <Route component={Notfound} />
       </Switch>
      
