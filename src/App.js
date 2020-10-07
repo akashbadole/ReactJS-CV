@@ -11,7 +11,7 @@ import Enterprise from './Enterprise';
 import Support from './Support';
 import Pricing from './Pricing';
 import Notfound from './Notfound';
-import home from './home';
+import home from './Home';
 import Signup from './Signup';
 
 
